@@ -6,7 +6,17 @@
 4. Given a geolocation, your application lists all books mentioning a city in vicinity of the given geolocation. 
 
 
-No indexing exists on Neo4J nor in MongoDB:
+Running the following commands returns empty lit because the respective databases has not been indexed or optimized.
+
+MongoDB
+
+```db.getCollection('books2').getIndexes()```
+
+
+Neo4J
+
+```CALL db.indexes```
+
 
 [![https://gyazo.com/650479376637b1498330604ef6d26a71](https://i.gyazo.com/650479376637b1498330604ef6d26a71.png)](https://gyazo.com/650479376637b1498330604ef6d26a71)
 
