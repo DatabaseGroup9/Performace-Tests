@@ -8,8 +8,7 @@
 
 No indexing exists on Neo4J nor in MongoDB:
 
-[![https://gyazo.com/16d2df6c6006d9b97f75989245dbf981](https://i.gyazo.com/16d2df6c6006d9b97f75989245dbf981.png)](https://gyazo.com/16d2df6c6006d9b97f75989245dbf981)
-
+[![https://gyazo.com/650479376637b1498330604ef6d26a71](https://i.gyazo.com/650479376637b1498330604ef6d26a71.png)](https://gyazo.com/650479376637b1498330604ef6d26a71)
 
 ### Performance Story 1
 
