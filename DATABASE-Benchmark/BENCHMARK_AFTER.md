@@ -33,9 +33,18 @@ MySQL consists of a SQL View.
 
 [![https://gyazo.com/e6a857503154c4fcc29d18c517d7efda](https://i.gyazo.com/e6a857503154c4fcc29d18c517d7efda.png)](https://gyazo.com/e6a857503154c4fcc29d18c517d7efda)
 
+Quering The REST API
 
 |   | Story 1  |Story 2   | Story 3   | Story 4  |
 |---|---|---|---|---|
 |  MongoDB | 5680  | 349  | 1072  | 3944  |
 |  Neo4J |  1462 | 327  |  736 | 601  |
 |  MySQL |  45 |  39 |  394 | 215  |
+
+Quering The Databases
+
+|   | Story 1  |Story 2   | Story 3   | Story 4  |
+|---|---|---|---|---|
+|  MongoDB |   |   |   |   |
+|  Neo4J | 139  |  105 | 164  | 39  |
+|  MySQL |   |   |   |   |
