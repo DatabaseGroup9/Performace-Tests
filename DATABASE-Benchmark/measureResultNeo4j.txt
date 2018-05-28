@@ -1,0 +1,78 @@
+Running data.Neo4JUnitTest
+getUserStory2DBQuery
+INPUT : Mother: A Story
+TOTAL TIME ELAPSED = 309143576370260ms
+getUserStory2DBQuery
+INPUT : The 2000 CIA World Factbook
+TOTAL TIME ELAPSED = 309143972024954ms
+getUserStory2DBQuery
+INPUT : The 2000 CIA World Factbook
+TOTAL TIME ELAPSED = 309144364112410ms
+getBooksByGeolocation
+INPUT : 14.6042 , 120.9822
+TOTAL TIME ELAPSED = 309144697226101ms
+getBooksByGeolocation
+INPUT : 59.33258000000001 , 18.0649
+TOTAL TIME ELAPSED = 309145040467152ms
+getBooksByGeolocation
+INPUT : 55.675940000000004 , 12.56553
+TOTAL TIME ELAPSED = 309145391651455ms
+getCitiesMentionedInBookByAuthor
+INPUT : Norris, Kathleen Thompson
+TOTAL TIME ELAPSED = 309145748087879ms
+getCitiesMentionedInBookByAuthor
+INPUT : United States. Central Intelligence Agency
+TOTAL TIME ELAPSED = 309146590099754ms
+getCitiesMentionedInBookByAuthor
+INPUT : United States. Central Intelligence Agency
+TOTAL TIME ELAPSED = 309147214768751ms
+getCitiesByTitleTest
+INPUT : Mother: A Story
+TOTAL TIME ELAPSED = 309147509013136ms
+getCitiesByTitleTest
+INPUT : The 2000 CIA World Factbook
+TOTAL TIME ELAPSED = 309147921489561ms
+getCitiesByTitleTest
+INPUT : The 2000 CIA World Factbook
+TOTAL TIME ELAPSED = 309148271753008ms
+getUserStory1DBQuery
+INPUT : Norris_ Kathleen Thompson
+TOTAL TIME ELAPSED = 309148639349316ms
+getUserStory1DBQuery
+INPUT : United States. Central Intelligence Agency
+TOTAL TIME ELAPSED = 309149313002662ms
+getUserStory1DBQuery
+INPUT : United States. Central Intelligence Agency
+TOTAL TIME ELAPSED = 309150169606589ms
+getUserStory1DBQuery
+INPUT : Manila
+TOTAL TIME ELAPSED = 309150498078232ms
+getUserStory1DBQuery
+INPUT : Stockholm
+TOTAL TIME ELAPSED = 309150892596944ms
+getUserStory1DBQuery
+INPUT : Copenhagen
+TOTAL TIME ELAPSED = 309151292481909ms
+getUserStory4DBQuery
+INPUT : 14.6042 , 120.9822
+TOTAL TIME ELAPSED = 309151614927140ms
+getUserStory4DBQuery
+INPUT : 59.33258000000001 , 18.0649
+TOTAL TIME ELAPSED = 309152012101267ms
+getUserStory4DBQuery
+INPUT : 55.675940000000004 , 12.56553
+TOTAL TIME ELAPSED = 309152378332918ms
+getBooksByCityTest
+INPUT : Manila
+TOTAL TIME ELAPSED = 309152712100199ms
+getBooksByCityTest
+INPUT : Stockholm
+TOTAL TIME ELAPSED = 309153119236646ms
+getBooksByCityTest
+INPUT : Copenhagen
+TOTAL TIME ELAPSED = 309153564186062ms
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.596 sec
+
+Results :
+
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0
