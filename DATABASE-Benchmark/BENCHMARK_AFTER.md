@@ -33,6 +33,18 @@ MySQL consists of a SQL View.
 
 [![https://gyazo.com/e6a857503154c4fcc29d18c517d7efda](https://i.gyazo.com/e6a857503154c4fcc29d18c517d7efda.png)](https://gyazo.com/e6a857503154c4fcc29d18c517d7efda)
 
+Quering The Databases
+
+|   | Story 1 avg. ms |Story 2 avg. ms  | Story 3 avg. ms  | Story 4 avg. ms |
+|---|---|---|---|---|
+|  MongoDB | 689  | 42  |  49 | 234  |
+|  Neo4J |  44  |  15 | 23  | 10  |
+|  MySQL | 22  | 5  | 16  | 8  |
+
+
+
+#### B. Query Runtime is influenced by the application frontend <br>
+
 Quering The REST API
 
 |   | Story 1 avg. ms |Story 2 avg. ms  | Story 3 avg. ms  | Story 4 avg. ms |
@@ -40,14 +52,7 @@ Quering The REST API
 |  MongoDB | 5680  | 349  | 1072  | 3944  |
 |  Neo4J |  1462 | 327  |  736 | 601  |
 |  MySQL |  45 |  39 |  394 | 215  |
-
-Quering The Databases
-
-|   | Story 1 avg. ms |Story 2 avg. ms  | Story 3 avg. ms  | Story 4 avg. ms |
-|---|---|---|---|---|
-|  MongoDB |   |   |   |   |
-|  Neo4J | 139  |  105 | 164  | 39  |
-|  MySQL |   |   |   |   |
+|  Stub |  61 |  36 |  42 | 41  |
 
 Application Overhead 
 
@@ -55,6 +60,6 @@ Application Overhead
 
 |   | Story 1 avg. ms |Story 2 avg. ms  | Story 3 avg. ms  | Story 4 avg. ms |
 |---|---|---|---|---|
-|  MongoDB |   |   |   |   |
+|  MongoDB | 4991  | 307  | 1023  | 3710  |
 |  Neo4J | 1323  |  222 | 572  | 562  |
-|  MySQL |   |   |   |   |
+|  MySQL | 23  | 34  | 378  | 207  |
