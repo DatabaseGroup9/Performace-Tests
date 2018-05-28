@@ -48,3 +48,13 @@ Quering The Databases
 |  MongoDB |   |   |   |   |
 |  Neo4J | 139  |  105 | 164  | 39  |
 |  MySQL |   |   |   |   |
+
+Application Overhead 
+
+*REST API time - query in the database*
+
+|   | Story 1 avg. ms |Story 2 avg. ms  | Story 3 avg. ms  | Story 4 avg. ms |
+|---|---|---|---|---|
+|  MongoDB |   |   |   |   |
+|  Neo4J | 1323  |  222 | 572  | 562  |
+|  MySQL |   |   |   |   |
