@@ -44,7 +44,8 @@ Query in Cypher:
 
 #### N4
 
-```PROFILE MATCH (a:Author)-[ra:AUTHORED]->(b:Book)-[r:MENTIONS ]->(c:City) WHERE c.lat = 14.6042  AND c.lon =120.9822  RETURN a,b,collect(c)```
+```PROFILE MATCH (a:Author)-[ra:AUTHORED]->(b:Book)-[r:MENTIONS ]->(c:City) WHERE distance(point({ x: c.lat, y: c.lon}), 
+    point({x: 14.6042 ,y: 120.9822 })) < 0.35 RETURN a,b,collect(c) ORDER BY a.fullName```
 
 ```Cypher version: CYPHER 3.4, planner: COST, runtime: INTERPRETED. 27121 total db hits in 37 ms.```
 
