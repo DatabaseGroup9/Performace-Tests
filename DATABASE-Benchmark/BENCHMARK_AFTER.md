@@ -16,8 +16,7 @@
 
 ### MySQL
 
-Give me the View command
-
+MySQL consists of a SQL View.
 
 ### Performance Story 1
 [![https://gyazo.com/cb765a7ae21407722c0d83e010c22ee2](https://i.gyazo.com/cb765a7ae21407722c0d83e010c22ee2.png)](https://gyazo.com/cb765a7ae21407722c0d83e010c22ee2)
