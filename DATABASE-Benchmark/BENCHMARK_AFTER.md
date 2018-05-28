@@ -43,7 +43,7 @@ Quering The REST API
 
 Quering The Databases
 
-|   | Story 1  |Story 2   | Story 3   | Story 4  |
+|   | Story 1 avg. ms |Story 2 avg. ms  | Story 3 avg. ms  | Story 4 avg. ms |
 |---|---|---|---|---|
 |  MongoDB |   |   |   |   |
 |  Neo4J | 139  |  105 | 164  | 39  |
