@@ -34,7 +34,7 @@ MySQL consists of a SQL View.
 [![https://gyazo.com/e6a857503154c4fcc29d18c517d7efda](https://i.gyazo.com/e6a857503154c4fcc29d18c517d7efda.png)](https://gyazo.com/e6a857503154c4fcc29d18c517d7efda)
 
 
-|   | Story 1  |Story 2   | Story 3   | Story 4  |
+|   | Story 1 avg. ms |Story 2 avg. ms  | Story 3 avg. ms  | Story 4 avg. ms |
 |---|---|---|---|---|
 |  MongoDB | 5680  | 349  | 1072  | 3944  |
 |  Neo4J |  1462 | 327  |  736 | 601  |
