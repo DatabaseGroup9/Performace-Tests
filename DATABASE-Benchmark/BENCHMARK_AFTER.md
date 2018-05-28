@@ -19,7 +19,8 @@
 MySQL optimization consists of creating a SQL View:
 
 ```CREATE VIEW BooksTable AS
-SELECT Books.bookID, Books.BookTitle, Cities.cityID, Cities.name, Cities.lat, Cities.lon, Author.authorID, Author.fullName, Author.firstName, Author.surName, Author.title FROM `Mentions` JOIN Books ON Mentions.bookID = Books.bookID JOIN Cities ON Mentions.cityID = Cities.cityID JOIN Wrote ON Wrote.bookID = Books.bookID JOIN Authors ON Authors.authorID = Wrote.authorID```
+SELECT Books.bookID, Books.BookTitle, Cities.cityID, Cities.name, Cities.lat, Cities.lon, Author.authorID, Author.fullName, Author.firstName, Author.surName, Author.title FROM `Mentions` JOIN Books ON Mentions.bookID = Books.bookID JOIN Cities ON Mentions.cityID = Cities.cityID JOIN Wrote ON Wrote.bookID = Books.bookID JOIN Authors ON Authors.authorID = Wrote.authorID
+```
 
 ### Performance Story 1
 [![https://gyazo.com/cb765a7ae21407722c0d83e010c22ee2](https://i.gyazo.com/cb765a7ae21407722c0d83e010c22ee2.png)](https://gyazo.com/cb765a7ae21407722c0d83e010c22ee2)
