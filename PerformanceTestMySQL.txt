@@ -1,0 +1,93 @@
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running data.MySQLUnitTestPerformance
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+Mon May 28 09:03:50 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getBooksByGeolocation
+INPUT : 14.6042 , 120.9822
+Mon May 28 09:03:51 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getBooksByGeolocation
+INPUT : 59.33258000000001 , 18.0649
+Mon May 28 09:03:51 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getBooksByGeolocation
+INPUT : 10.69694 , 122.56444
+Mon May 28 09:03:52 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getBooksByGeolocation
+INPUT : 14.17025 , 121.24181
+Mon May 28 09:03:52 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getBooksByGeolocation
+INPUT : 55.64152 , 12.08035
+Mon May 28 09:03:52 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getCitiesMentionedInBookByAuthor
+TOTAL TIME ELAPSED = 15ms
+Mon May 28 09:03:52 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getCitiesMentionedInBookByAuthor
+TOTAL TIME ELAPSED = 49ms
+Mon May 28 09:03:53 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getCitiesMentionedInBookByAuthor
+TOTAL TIME ELAPSED = 6ms
+Mon May 28 09:03:53 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getCitiesMentionedInBookByAuthor
+TOTAL TIME ELAPSED = 8ms
+Mon May 28 09:03:54 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getCitiesMentionedInBookByAuthor
+TOTAL TIME ELAPSED = 5ms
+Mon May 28 09:03:54 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getCitiesByTitleTest
+INPUT : Mother: A Story
+SELECT name,lat,lon FROM BooksTable WHERE bookTitle = 'Mother: A Story'
+TOTAL TIME ELAPSED = 5ms
+Mon May 28 09:03:54 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getCitiesByTitleTest
+INPUT : The 2000 CIA World Factbook
+SELECT name,lat,lon FROM BooksTable WHERE bookTitle = 'The 2000 CIA World Factbook'
+TOTAL TIME ELAPSED = 9ms
+Mon May 28 09:03:55 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getCitiesByTitleTest
+INPUT : The Reign of Greed
+SELECT name,lat,lon FROM BooksTable WHERE bookTitle = 'The Reign of Greed'
+TOTAL TIME ELAPSED = 5ms
+Mon May 28 09:03:55 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getCitiesByTitleTest
+INPUT : A Visit to the Philippine Islands
+SELECT name,lat,lon FROM BooksTable WHERE bookTitle = 'A Visit to the Philippine Islands'
+TOTAL TIME ELAPSED = 5ms
+Mon May 28 09:03:55 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getCitiesByTitleTest
+INPUT : Capitals of the Northlands: Tales of Ten Cities
+SELECT name,lat,lon FROM BooksTable WHERE bookTitle = 'Capitals of the Northlands: Tales of Ten Cities'
+TOTAL TIME ELAPSED = 4ms
+Mon May 28 09:03:55 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getBooksByCityTest
+INPUT : Manila
+TOTAL TIME ELAPSED = 13ms
+Mon May 28 09:03:56 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getBooksByCityTest
+INPUT : Stockholm
+TOTAL TIME ELAPSED = 13ms
+Mon May 28 09:03:56 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getBooksByCityTest
+INPUT : Iloilo
+TOTAL TIME ELAPSED = 5ms
+Mon May 28 09:03:56 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getBooksByCityTest
+INPUT : Los Baños
+TOTAL TIME ELAPSED = 5ms
+Mon May 28 09:03:56 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getBooksByCityTest
+INPUT : Roskilde
+TOTAL TIME ELAPSED = 3ms
+Mon May 28 09:03:57 CEST 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+getBooksByCityTest
+INPUT : Most
+TOTAL TIME ELAPSED = 97ms
+AVERAGE FOR US1 22
+AVERAGE FOR US2 5
+AVERAGE FOR US3 16
+AVERAGE FOR US4 8
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.795 sec
+
+Results :
+
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0

@@ -1,0 +1,131 @@
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running data.Neo4jUnitTestPerformance1
+getUserStory2DBQuery
+INPUT : Mother: A Story
+TOTAL TIME ELAPSED = 16ms
+getUserStory2DBQuery
+INPUT : The 2000 CIA World Factbook
+TOTAL TIME ELAPSED = 18ms
+getUserStory2DBQuery
+INPUT : The Reign of Greed
+TOTAL TIME ELAPSED = 14ms
+getUserStory2DBQuery
+INPUT : A Visit to the Philippine Islands
+TOTAL TIME ELAPSED = 15ms
+getUserStory2DBQuery
+INPUT : Capitals of the Northlands: Tales of Ten Cities
+TOTAL TIME ELAPSED = 14ms
+getBooksByGeolocation
+INPUT : 14.6042 , 120.9822
+TOTAL TIME ELAPSED = 15ms
+getBooksByGeolocation
+INPUT : 59.33258000000001 , 18.0649
+TOTAL TIME ELAPSED = 16ms
+getBooksByGeolocation
+INPUT : 10.69694 , 122.56444
+TOTAL TIME ELAPSED = 14ms
+getBooksByGeolocation
+INPUT : 14.17025 , 121.24181
+TOTAL TIME ELAPSED = 5ms
+getBooksByGeolocation
+INPUT : 55.64152 , 12.08035
+TOTAL TIME ELAPSED = 4ms
+getCitiesMentionedInBookByAuthor
+TOTAL TIME ELAPSED = 15ms
+getCitiesMentionedInBookByAuthor
+TOTAL TIME ELAPSED = 58ms
+getCitiesMentionedInBookByAuthor
+TOTAL TIME ELAPSED = 16ms
+getCitiesMentionedInBookByAuthor
+TOTAL TIME ELAPSED = 15ms
+getCitiesMentionedInBookByAuthor
+TOTAL TIME ELAPSED = 13ms
+getCitiesByTitleTest
+INPUT : Mother: A Story
+TOTAL TIME ELAPSED = 13ms
+getCitiesByTitleTest
+INPUT : The 2000 CIA World Factbook
+TOTAL TIME ELAPSED = 20ms
+getCitiesByTitleTest
+INPUT : The Reign of Greed
+TOTAL TIME ELAPSED = 13ms
+getCitiesByTitleTest
+INPUT : A Visit to the Philippine Islands
+TOTAL TIME ELAPSED = 15ms
+getCitiesByTitleTest
+INPUT : Capitals of the Northlands: Tales of Ten Cities
+TOTAL TIME ELAPSED = 15ms
+getUserStory1DBQuery
+INPUT : Norris, Kathleen Thompson
+TOTAL TIME ELAPSED = 17ms
+getUserStory1DBQuery
+INPUT : United States. Central Intelligence Agency
+TOTAL TIME ELAPSED = 47ms
+getUserStory1DBQuery
+INPUT : Derbyshire, Charles E.
+TOTAL TIME ELAPSED = 15ms
+getUserStory1DBQuery
+INPUT : Bowring, John
+TOTAL TIME ELAPSED = 15ms
+getUserStory1DBQuery
+INPUT : Hannah, Edith B.
+TOTAL TIME ELAPSED = 13ms
+getUserStory1DBQuery
+INPUT : Manila
+TOTAL TIME ELAPSED = 14ms
+getUserStory1DBQuery
+INPUT : Stockholm
+TOTAL TIME ELAPSED = 19ms
+getUserStory1DBQuery
+INPUT : Iloilo
+TOTAL TIME ELAPSED = 7ms
+getUserStory1DBQuery
+INPUT : Los Baños
+TOTAL TIME ELAPSED = 7ms
+getUserStory1DBQuery
+INPUT : Roskilde
+TOTAL TIME ELAPSED = 7ms
+getUserStory1DBQuery
+INPUT : Most
+TOTAL TIME ELAPSED = 196ms
+getUserStory4DBQuery
+INPUT : 14.6042 , 120.9822
+TOTAL TIME ELAPSED = 14ms
+getUserStory4DBQuery
+INPUT : 59.33258000000001 , 18.0649
+TOTAL TIME ELAPSED = 16ms
+getUserStory4DBQuery
+INPUT : 10.69694 , 122.56444
+TOTAL TIME ELAPSED = 10ms
+getUserStory4DBQuery
+INPUT : 14.17025 , 121.24181
+TOTAL TIME ELAPSED = 5ms
+getUserStory4DBQuery
+INPUT : 55.64152 , 12.08035
+TOTAL TIME ELAPSED = 5ms
+getBooksByCityTest
+INPUT : Manila
+TOTAL TIME ELAPSED = 16ms
+getBooksByCityTest
+INPUT : Stockholm
+TOTAL TIME ELAPSED = 23ms
+getBooksByCityTest
+INPUT : Iloilo
+TOTAL TIME ELAPSED = 17ms
+getBooksByCityTest
+INPUT : Los Baños
+TOTAL TIME ELAPSED = 7ms
+getBooksByCityTest
+INPUT : Roskilde
+TOTAL TIME ELAPSED = 6ms
+getBooksByCityTest
+INPUT : Most
+TOTAL TIME ELAPSED = 195ms
+AVERAGE FOR US1 44
+AVERAGE FOR US2 15
+AVERAGE FOR US3 23
+AVERAGE FOR US4 10
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.854 sec
